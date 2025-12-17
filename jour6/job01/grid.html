@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job 03 - Grid System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Juste pour voir les blocs */
+        .box {
+            background-color: #3498db;
+            color: white;
+            border: 2px solid white;
+            padding: 20px;
+            text-align: center;
+            font-size: 1.5rem;
+            min-height: 100px;
+        }
+        .box:nth-child(even) {
+            background-color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Démonstration Grille Responsive</h2>
+        <p class="text-center">Redimensionnez la fenêtre pour voir le changement.</p>
+
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="box">Bloc 1</div>
+            </div>
+            
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="box">Bloc 2</div>
+            </div>
+            
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="box">Bloc 3</div>
+            </div>
+            
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="box">Bloc 4</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
